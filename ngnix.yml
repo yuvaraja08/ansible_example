@@ -1,0 +1,6 @@
+---
+-name: Install ngnix using ansible
+ hosts: web
+ become: yes
+ roles:
+   - geerlingguy.nginx
